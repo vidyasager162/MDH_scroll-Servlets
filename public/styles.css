@@ -1,0 +1,250 @@
+/* TAGS */
+
+address { /* Address in Contact Us section */
+	color: #3F72AF;
+	margin-bottom: 21px;
+}
+
+body {
+	background-color: #F9F7F7;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+center { /* Center tag used on login form div */
+	margin-top: 100px;
+	margin-bottom: 85px;
+}
+
+footer {
+	background-color: #3F72AF;
+	bottom: 50;
+	color: #F9F7F7;
+	font-family: 'Bebas Neue', cursive;
+	position: relative;
+	width: 100%;	
+}
+
+h1 {
+	color: #112D4E;
+	font-family: 'Bebas Neue', cursive; 
+	font-size: 60px;
+	text-align: center; 
+}
+
+header { 
+	background-color: #112D4E;
+	color: #F9F7F7;
+	display: block;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	padding: 8px 8px 8px 32px;
+	position: fixed;
+	text-decoration: none;
+	top: 0;	
+	width: 100%;
+}
+
+header a {
+	background-color: #112D4E;
+	color: #F9F7F7;
+	display: inline;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+}
+
+span { /* Span used in header for nav button and also in footer for img */
+	font-family: 'Bebas Neue', cursive;
+}
+
+ul { /* Used in listing table contents */
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;	
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-height: 450px) {
+	.sidenavbar {padding-top: 15px;}
+	.sidenavbar a{font-size: 18px;}
+}
+@media screen and (max-height: 800px) {
+	section {width: fit-content;}
+}
+
+/* CLASSES */
+
+.con-wrapper { /* Footer content container/wrapper */ 
+	padding: 0 0 20px 20px;
+	position: relative;
+}
+
+.contd { /* Intro continuation */
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.dark-mode { /* Class for toggling dark mode */
+	background-color: #121212;
+	color: #F9F7F7;
+}
+
+.dotted{ /* Class for all the hr formatted as dots */
+	border-color: #DBE2EF;
+	border-style: none;
+  	border-top-style: dotted;
+  	border-width: 12px;
+  	width: 10%;
+}
+
+.ele { /* Relational table content div class */
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.fhr { /* Class for hr in the footer */
+	margin: 0;
+}
+
+.footer-wrapper > p { /* Overall container inside the Footer */
+	font-size: 25px;
+	left: 20px;
+	margin: 0;
+	padding: 20px 0 20px 0;	
+	position: relative;
+}
+
+.idea { /* Class for the base idea div */
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.img-wrapper{ /* Container for the image in footer */
+	padding: 20px;
+	position: relative;
+}
+
+.intro { /* Website intro div */
+	font-family: 'Teko', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.login { /* Class for the login form div */
+	background-color: #DBE2EF;
+	color: black;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	margin: 50px;
+	text-align: center;
+	width: 25%;
+}
+
+.login > h2 {
+	font-family: 'Just Another Hand', cursive;
+	margin: 0;
+	padding: 5px;
+}
+
+.logo { /* Container for the img in the intro */
+	text-align: center;
+}
+
+.sidenavbar {
+	background-color: #112D4E;
+	height:100%;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 60px;
+	position: fixed;
+	top: 0;
+	transition:0.5s;
+	width: 0%;
+	z-index: 1;
+}
+
+.sidenavbar a {
+	color: #F9F7F7;
+	display: block;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.sidenavbar a:hover {
+	background-color: #3F72AF;
+}
+
+.sidenavbar .closebtn {
+	font-size: 25px;
+	margin-left: 50px;
+	padding: 10px;
+	position: absolute;
+	right: 25px;
+	top: 0;
+}
+
+::-webkit-scrollbar { /*Trick to remove the scrollbar of the client browser */
+	display: none;
+}
+
+/* IDs */
+
+#about { /* About Us div */
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	padding: 0 40px 40px 40px;
+}
+
+#contact { /* Contact Us div */
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+#dark { /* Dark mode toggle button styling */
+	background-color: #3F72AF;
+	border-radius: 50%;
+	bottom: 30px;
+	height: 20px;  
+	padding: 10px;
+	position: fixed; 
+  	right: 30px;   
+	width: 20px;
+	z-index: 99;
+}
+
+/*
+li a {
+	color: black;
+	display: block;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #9ED2C6;
+}
+*/
+
+#main { /*This div contains the entire content of the website except the Footer and Header */
+	padding: 20px;
+	transition: margin-left .5s;
+}
+
+#ps { /* Problem Statement div */
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	padding: 0 40px 40px 40px;
+}
