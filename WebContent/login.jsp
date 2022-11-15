@@ -16,7 +16,7 @@
 </head>
 <body>
     <header id="home">
-		<a href="index.jsp">SSSIHL MDH</a>
+		<a href="index.jsp">Back</a>
 	</header>
 	<input type="image" id="dark" src="public/Images/circle-half-stroke-solid.png" onclick="myFunction()">
     <div id="main">

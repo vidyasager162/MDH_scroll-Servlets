@@ -16,20 +16,19 @@
 </head>
 <body>
     <header id="home">
-		<a href="index.jsp">SSSIHL MDH</a>
+		<a href="home.jsp">BACK</a>
 	</header>
 	<input type="image" id="dark" src="public/Images/circle-half-stroke-solid.png" onclick="myFunction()">
     <div id="main">
-        <h1>SIGNUP</h1>
+        <h1>PROFILE</h1>
             <center>
                 <div class="login" id="login">
-                    <h2 style="font-family: 'Dancing Script', cursive; padding: 5px;">Welcome!</h2>
-                    <form action="signup" method="post">
-                        <img src="public/Images/sssihl-modified.png" alt="" width="100" height="100"><br>
-                        <input type="text" placeholder="Username" name="uname" required autofocus><br>
-                        <input type="password" placeholder="Password" name="pwd" required><br>
-                        <button type="submit" name="signup">Login</button>
-                    </form> 
+                    <h2><%= session.getAttribute("name") %></h2>
+             		<p><%= session.getAttribute("username") %></p>
+             		<p><%= session.getAttribute("email") %></p>
+             		<form action="delete" method="post">
+             			<button type="submit" name="delete">Delete Account</button>
+             		</form>
                 </div>
             </center>
     </div>

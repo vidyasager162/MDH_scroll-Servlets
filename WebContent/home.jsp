@@ -20,7 +20,13 @@
 <body>
 	<header id="home">
 		<span style="font-size: 30px;cursor: pointer;" onclick="openNav()">&#9776;</span>
-		<a href="login">Login</a>
+		<div class="dropdown">
+			<a class="dropbtn" style="font-size: 25px;padding: 10px"><%= session.getAttribute("name") %></a>
+			<div class="dropdown-content">
+			  <a href="profile.jsp">Profile</a>
+			  <a href="index.jsp">Logout</a>
+			</div>
+		</div>
 	</header>
 	<input type="image" id="dark" src="public/Images/circle-half-stroke-solid.png" onclick="myFunction()">
 	<div id="sidenavbar" class="sidenavbar">

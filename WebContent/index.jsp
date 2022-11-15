@@ -19,8 +19,9 @@
 </head>
 <body>
 	<header id="home">
+		<a href="index.jsp">SSSIHL MDH</a>
 		<a href="login.jsp">Login</a>
-    <a href="signup.jsp">Signup</a>
+    	<a href="signup.jsp">Signup</a>
 	</header>
 	<input type="image" id="dark" src="public/Images/circle-half-stroke-solid.png" onclick="myFunction()">
 	<br id="go"><br><br><br><br><br><br><br><br>
