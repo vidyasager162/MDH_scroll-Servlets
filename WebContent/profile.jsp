@@ -27,7 +27,7 @@
              		<p><%= session.getAttribute("username") %></p>
              		<p><%= session.getAttribute("email") %></p>
              		<form action="delete" method="post">
-             			<button type="submit" name="delete">Delete Account</button>
+             			<button type="submit" name="delete" class="compButton">Delete Account</button>
              		</form>
                 </div>
             </center>
@@ -46,7 +46,7 @@
                 <p style="font-size: 20px">Let us know your impressions about the website</p>
                 <form action="feedback" method="post" target="_blank">
                      <textarea name="msg" id=""></textarea>
-                     <button type="submit">Compose</button>
+                     <button type="submit" class="compButton">Compose</button>
                 </form>
             </div>
             <hr class="fhr"> 

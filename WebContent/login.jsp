@@ -28,7 +28,7 @@
                         <img src="public/Images/sssihl-modified.png" alt="" width="100" height="100"><br>
                         <input type="text" placeholder="Username" name="uname" required autofocus><br>
                         <input type="password" placeholder="Password" name="pwd" required><br>
-                        <button type="submit" name="login">Login</button>
+                        <button type="submit" name="login" class="compButton">Login</button>
                         <br>
                         <a onclick="alert('Jai Sairam')" style="font-size: 20px; cursor: pointer;">Forgot Password?</a>
                     </form> 
@@ -49,7 +49,7 @@
                 <p style="font-size: 20px">Let us know your impressions about the website</p>
                 <form action="feedback" method="post" target="_blank">
                      <textarea name="msg" id=""></textarea>
-                     <button type="submit">Compose</button>
+                     <button type="submit" class="compButton">Compose</button>
                 </form>
             </div>
             <hr class="fhr"> 

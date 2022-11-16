@@ -79,6 +79,17 @@ ul { /* Used in listing table contents */
 
 /* CLASSES */
 
+.compButton{
+	background:#112D4E;
+	color:#fff;
+	font-size:20px;
+}
+
+.compButton:hover{
+	background: #fff;
+	color: ##112D4E;
+}
+
 .con-wrapper { /* Footer content container/wrapper */ 
 	padding: 0 0 20px 20px;
 	position: relative;
