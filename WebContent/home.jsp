@@ -134,8 +134,8 @@
 			<h1>CONTACT US</h1>
 			<h2>Vidyasager GR & Sairaj Patro</h2>
 			<address>
-				vidyasager162@gmail.com<br>
-				patrosairaj33@gmail.com<br>
+				<a href="mailto: vidyasager162@gmail.com" target="_blank" style="text-decoration: none">vidyasager162@gmail.com</a><br>
+				<a href="mailto: patrosairaj33@gmail.com" target="_blank" style="text-decoration: none">patrosairaj33@gmail.com</a><br>
 				Sri Sathya Sai Institute of Higher Learning Hostel,<br>
 				Muddenahalli Campus,<br>
 				Muddenahalli,<br>
@@ -158,7 +158,7 @@
 			<div class="con-wrapper">
 				<h2 style="font-size: 40px;">Write to us</h2>
 				<p style="font-size: 20px">Let us know your impressions about the website</p>
-				<form action="">
+				<form action="feedback" method="post" target="_blank">
 					 <textarea name="msg" id=""></textarea>
 					 <button type="submit">Compose</button>
 				</form>
