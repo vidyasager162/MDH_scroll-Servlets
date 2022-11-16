@@ -38,7 +38,7 @@
     <footer>
         <div class="footer-wrapper"> 
             <div class="img-wrapper">
-                <a href="/">  
+                <a href="login.jsp">  
                     <span class="footer-img">
                         <img src="public/Images/sssihl_footer_modified.png" alt="sssihl_footer_modified.png" width="196" height="40">
                     </span>

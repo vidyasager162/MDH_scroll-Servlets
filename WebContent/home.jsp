@@ -138,7 +138,6 @@
 				patrosairaj33@gmail.com<br>
 				Sri Sathya Sai Institute of Higher Learning Hostel,<br>
 				Muddenahalli Campus,<br>
-				(South Gate)<br>
 				Muddenahalli,<br>
 				Chikkaballapur-562101<br>
 				Karnataka
@@ -150,7 +149,7 @@
 	<footer>
 		<div class="footer-wrapper"> 
 			<div class="img-wrapper">
-				<a href="/">  
+				<a href="home.jsp">  
 					<span class="footer-img">
 						<img src="public/Images/sssihl_footer_modified.png" alt="sssihl_footer_modified.png" width="196" height="40">
 					</span>
